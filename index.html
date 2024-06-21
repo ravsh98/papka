@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produck</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+
+    <!-- Navbar Starts -->
+    <nav class="navbar bg-[#F8FFFF] h-full w-full">
+        <div class="container flex items-center gap-8 mt-4 max-[600px]:p-4 ">
+            <img class="max-[500px]:mx-auto" src="./assets/Logo.svg" alt="">
+            <img class="ml-auto max-[500px]:hidden" src="./assets/telegram.png" alt="">
+            <img class="max-[500px]:hidden" src="./assets/pochta.png" alt="">
+            <div class="flex items-center gap-3">
+                <img class="max-[500px]:hidden" src="./assets/phone.png" alt="">
+                <p class="font-[700] text-[16px] leading-[19px] text-[#1E959B] max-[1050px]:hidden">+7 800 301-79-27</p>
+            </div>
+            <button
+                class="font-[700] text-[14px] leading-[17px] text-[#FFFFFF] bg-[#F05670] p-4 rounded-[15px] max-[650px]:hidden">НАЧАТЬ
+                ПРОЕКТ
+            </button>
+            <i class="material-icons  md:hidden inline border border-1 border-[#EFEFEF] p-2 rounded--full">menu</i>
+               
+        </div>
+    </nav>
+    <!-- Navbar Ends -->
+
+    <!-- Mobile Nav stars -->
+    <nav id="mobile-navbar"
+        class="fixed z-[3] top-[72px] right-[-100%] mobile-navbar h-[calc(100vh-72px)]  w-full backdrop-blur-sm bg-white/20 transition-all duration-300">
+        <div class="mobile-navbar-content  flex flex-col gap-[2rem] p-[1rem] h-full w-[280px] ml-auto bg-white ">
+            <div class="flex items-center border h-[48px] px-[1rem] rounded-[71px] border-1 border-[#EFEFEF]">
+                <img src="./assets/icon_search.svg" alt="search">
+                <input class="w-full outline-none border-none" type="text" placeholder="Search...">
+            </div>
+
+
+            <ul class="flex flex-col my-[1rem]">
+                <li class="py-3 px-4 rounded-[20px] hover:bg-slate-200/50 transition-all duration-200 ">
+                    <a class="nav-link" href="#products">ALL
+                        PRODUCTS</a>
+                </li>
+                <li class="py-3 px-4 rounded-[20px] hover:bg-slate-200/50 transition-all duration-200 ">
+                    <a href="#about" class="nav-link">ABOUT SEEDRA</a>
+                </li>
+                <li class="py-3 px-4 rounded-[20px] hover:bg-slate-200/50 transition-all duration-200 ">
+                    <a href="#blog" class="nav-link">OUR BLOG</a>
+                </li>
+                <li class="py-3 px-4 rounded-[20px] hover:bg-slate-200/50 transition-all duration-200 ">
+                    <a href="#contacts" class="nav-link">CONTACTS</a>
+                </li>
+
+                <li class="w-full h-[1px] bg-[#EFEFEF] my-3"></li>
+            </ul>
+
+
+            <div class="mt-auto">
+                <div class="w-full h-[1px] bg-[#EFEFEF] my-3"></div>
+
+                <div class="flex gap-[1rem] items-center ">
+                    <a href="#">
+                        <img src="./assets//facebook.svg" alt="facebook">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/instagramm.svg" alt="instagramm">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Mobile Nav ends -->
+
+    <!-- Section 1 Starts -->
+    <section class="section1">
+        <div
+            class="container flex items-center justify-center gap-[5rem] mt-[7rem] max-[775px]:flex-col max-[775px]:gap-8 max-[775px]:p-8 max-[500px]:mx-auto max-[500px]:items-start">
+            <div class="flex flex-col items-start justify-center gap-[1rem]">
+                <h1 class="font-[700] text-[32px] leading-[40px] text-[#1E959B] w-[222px]"> Разработка IT‑продуктов</h1>
+                <p class="font-[400] text-[14px] leading-[16px] text-[#3C3C3C] max-[400px]:w-[280px] w-[320px]">
+                    Разработаем проект с нуля, доработаем текущий проект или усилим вашу ИТ-команду лучшими
+                    разработчиками на рынке</p>
+                <button
+                    class="font-[700] text-[16px] leading-[19px] text-[#FFFFFF] bg-[#F05670] p-4 w-[232px] rounded-[20px] mt-12">НАЧАТЬ
+                    НОВЫЙ ПРОЕКТ</button>
+            </div>
+            <div class="max-[800px]:hidden">
+                <img class="object-cover" src="./assets/section1.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Section 1 Ends -->
+
+    <!-- Section 2 Starts -->
+    <section class="section2 bg-[#1E959B] w-full h-[90px] max-[1300px]:p-4  ">
+        <div class="container flex justify-between items-center overflow-x-auto max-[1050px]:gap-8 ">
+            <img src="./assets/wooterlogo.svg" alt="">
+            <img src="./assets/smartlogo.svg" alt="">
+            <img src="./assets/carilogo.svg" alt="">
+            <img src="./assets/karilogo.svg" alt="">
+            <img src="./assets/urallogo.svg" alt="">
+        </div>
+    </section>
+    <!-- Section 2 Ends -->
+
+
+    <!-- ======================Section 3 starts ======================-->
+    <section class="container mt-[5rem]">
+        <div class="flex w-full justify-between max-[1050px]:gap-4 overflow-x-auto">
+            <div class="card">
+                <img class="max-[900px]:w-[50px] max-[900px]:h-[50px]" src="./assets/Group 97.png" alt="">
+                <p class="font-[400] text-[14px] leading-[16px] text-[#3C3C3C]">Проведём интервью</p>
+            </div>
+            <div class="card">
+                <img class="max-[900px]:w-[50px] max-[900px]:h-[50px]" src="./assets/plan.png" alt="">
+                <p class="font-[400] text-[14px] leading-[16px] text-[#3C3C3C]">Составим план</p>
+            </div>
+            <div class="card">
+                <img class="max-[900px]:w-[50px] max-[900px]:h-[50px]" src="./assets/mans.png" alt="">
+                <p class="font-[400] text-[14px] leading-[16px] text-[#3C3C3C]">Соберём команду </p>
+            </div>
+            <div class="card">
+                <img class="max-[900px]:w-[50px] max-[900px]:h-[50px]" src="./assets/produckt.png" alt="">
+                <p class="font-[400] text-[14px] leading-[16px] text-[#3C3C3C]">Разработаем продукт </p>
+            </div>
+            <div class="card">
+                <img class="max-[900px]:w-[50px] max-[900px]:h-[50px]" src="./assets/Group 93.png" alt="">
+                <p class="font-[400] text-[14px] leading-[16px] text-[#3C3C3C]">Улучшим метрики </p>
+            </div>
+        </div>
+
+        <div
+            class="flex justify-between items-center mt-[5rem] max-[1050px]:gap-[4rem] max-[800px]:flex-col  max-[400px]:p-[5rem]">
+
+
+            <div>
+                <img class="max-[600px]:w-[374px] max-[600px]:h-[313px] max-[400px]:hidden object-cover"
+                    src="./assets/image 2.png" alt="">
+            </div>
+
+
+            <div class="flex gap-4 flex-col">
+                <h1
+                    class="text-[32px] max-[400px]:text-[28px] font-[700] max-[400px]:w-[300px] leading-[40px] text-[#1E959B] w-[371px] max-[500px]:justify-center">
+                    Проведём интервью и подготовим проект к разработке
+                </h1>
+                <p
+                    class="text-[14px] max-[400px]:text-[10px] font-[400] max-[400px]:w-[250px] leading-[16px] text-[#3C3C3C] w-[310px]">
+                    Проведём продуктовое интервью онлайн и дадим рекомендации по подготовке проекта к разработке. <span
+                        class="text-[14px] font-[700] leading-[16px] text-[#3C3C3C]">Это бесплатно.</span>
+                </p>
+                <button
+                    class="text-[16px] max-[500px]:text-center max-[400px]:w-[150px] max-[400px]:text-[10px] max-[400px]:leading-[15px] font-[700] leading-[20px] text-[#fff] bg-[#F05670] section3-button p-4 rounded-[20px] w-[257px]">Записаться
+                    на интервью</button>
+            </div>
+        </div>
+    </section>
+    <!--======================Section 3 ends====================== -->
+
+
+    <!-- =========================Section 4 Starts =========================-->
+    <section class="section4 container mt-[5rem]">
+        <h1
+            class="font-[400] text-[32px] leading-[40px] text-[#1E959B] flex items-center justify-center max-[550px]:p-4 max-[550px]:text-[28px] max-[550px]:mx-auto section4-h1">
+            ПРОЕКТЫ КОМАНДЫ PRODUCTFIT
+        </h1>
+
+        <div
+            class="grid mt-[2rem] grid-cols-3 gap-8 max-[1350px]:p-4 max-[1100px]:grid-cols-2 max-[760px]:grid-cols-1 max-[750px]:flex max-[760px]:overflow-x-auto">
+            <div
+                class="w-[320px] h-[320px] max-[400px]:w-[250px] rounded-[25px] bg-[#F7F9FD] flex justify-between flex-col gap-4 p-8 card2">
+                <img class="h-[175px] w-[210px] flex justify-center items-center" src="./assets/image 19.png" alt="">
+                <h2 class="text-[#1E959B] text-[16px] leading-[20px] font-[700] flex justify-center">Cabify</h2>
+                <p class="text-[#3C3C3C] text-[14px] leading-[17px] font-[400] w-[232px]">Кроссплатформенное приложение
+                    под Android и iOS разработано на React Native(Python)</p>
+            </div>
+            <div
+                class="w-[320px] h-[320px] max-[400px]:w-[250px] rounded-[25px] bg-[#F7F9FD] flex justify-between flex-col gap-4 p-8 card2">
+                <img class="h-[175px] w-[210px] flex justify-center items-center" src="./assets/image 20.png" alt="">
+                <h2 class="text-[#1E959B] text-[16px] leading-[20px] font-[700] flex justify-center">Cabify</h2>
+                <p class="text-[#3C3C3C] text-[14px] leading-[17px] font-[400] w-[232px]">Кроссплатформенное приложение
+                    под Android и iOS разработано на React Native(Python)</p>
+            </div>
+            <div
+                class="w-[320px] h-[320px] max-[400px]:w-[250px] rounded-[25px] bg-[#F7F9FD] flex justify-between flex-col gap-4 p-8 card2">
+                <img class="h-[175px] w-[210px] flex justify-center items-center" src="./assets/image 21.png" alt="">
+                <h2 class="text-[#1E959B] text-[16px] leading-[20px] font-[700] flex justify-center">Cabify</h2>
+                <p class="text-[#3C3C3C] text-[14px] leading-[17px] font-[400] w-[232px]">Кроссплатформенное приложение
+                    под Android и iOS разработано на React Native(Python)</p>
+            </div>
+            <div
+                class="w-[320px] h-[320px] max-[400px]:w-[250px] rounded-[25px] bg-[#F7F9FD] flex justify-between flex-col gap-4 p-8 card2">
+                <img class="h-[175px] w-[210px] flex justify-center items-center" src="./assets/image 22.png" alt="">
+                <h2 class="text-[#1E959B] text-[16px] leading-[20px] font-[700] flex justify-center">Cabify</h2>
+                <p class="text-[#3C3C3C] text-[14px] leading-[17px] font-[400] w-[232px]">Кроссплатформенное приложение
+                    под Android и iOS разработано на React Native(Python)</p>
+            </div>
+            <div
+                class="w-[320px] h-[320px] max-[400px]:w-[250px] rounded-[25px] bg-[#F7F9FD] flex justify-between flex-col gap-4 p-8 card2">
+                <img class="h-[175px] w-[210px] flex justify-center items-center" src="./assets/image 23.png" alt="">
+                <h2 class="text-[#1E959B] text-[16px] leading-[20px] font-[700] flex justify-center">Cabify</h2>
+                <p class="text-[#3C3C3C] text-[14px] leading-[17px] font-[400] w-[232px]">Кроссплатформенное приложение
+                    под Android и iOS разработано на React Native(Python)</p>
+            </div>
+            <div
+                class="w-[320px] h-[320px] max-[400px]:w-[250px] rounded-[25px] bg-[#F7F9FD] flex justify-between flex-col gap-4 p-8 card2">
+                <img class="h-[175px] w-[210px] flex justify-center items-center" src="./assets/image 24.png" alt="">
+                <h2 class="text-[#1E959B] text-[16px] leading-[20px] font-[700] flex justify-center">Cabify</h2>
+                <p class="text-[#3C3C3C] text-[14px] leading-[17px] font-[400] w-[232px]">Кроссплатформенное приложение
+                    под Android и iOS разработано на React Native(Python)</p>
+            </div>
+        </div>
+
+        <button
+            class="text-[16px] font-[700] text-[#1E959B] leading-[20px] section4-button rounded-[20px] w-[233px] p-4 mx-auto mt-[3rem]">Все
+            проекты</button>
+    </section>
+    <!--========================= Section 4 ends========================= -->
+
+
+Ravshan, [09.05.2024 19:43]
+<!-- section 6 starts -->
+    <section class="container bg-[#F8FFFF] section6-starts mt-[5rem] max-[650px]:hidden">
+        <div class="flex justify-between items-center max-[1300px]:p-4 max-[1300px]:gap-12 max-[1000px]:flex-col">
+            <div class="flex flex-col gap-[1rem] w-[608px]">
+                <h3 class="font-[700] text-[16px] leading-[40px] text-[#F05670]">09 Августа 2021</h3>
+                <h1 class="font-[700] text-[32px] leading-[40px] text-[#1E959B]">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua
+                </h1>
+            </div>
+            <div>
+                <img src="./assets/Character.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- section 6 ends -->
+
+
+    <!-- Section 5 Starts -->
+    <section class="section5 mt-[10rem]">
+        <div class="w-full h-[154px] bg-[#1E959B] flex items-center justify-between">
+            <div
+                class="container flex items-center justify-between overflow-x-auto max-[1320px]:p-[2rem] max-[1300px]:gap-[2rem]">
+                <div
+                    class="w-[289px]   p-[1rem] h-[348px] bg-[white] section5-shadow flex flex-col h-[305px] w-[289px] items-center justify-between">
+                    <div class="w-[182px] h-[182px] rounded-full bg-[#1E959B] flex items-center justify-center">
+                        <img class="flex items-center justify-center cover" src="./assets/Group (1).png" alt="">
+                    </div>
+
+                    <h1 class="wont-[700] text-[24px] leading-[30px] text-[#1E959B]">Ecommerce</h1>
+                    <button
+                        class="wont-[700] text-[14px] leading-[17.33px] hover:bg-[#FFFFFF] hover:text-[#F05670] text-[#FFFFFF] bg-[#F05670] h-[62.06px] rounded-full w-[206px] section5-button">ЗАКАЗАТЬ</button>
+                </div>
+                <div
+                    class="w-[289px] p-[1rem] h-[348px] bg-[white] section5-shadow flex flex-col h-[305px] w-[289px] items-center justify-between">
+                    <div class="w-[182px] h-[182px] rounded-full bg-[#1E959B] flex items-center justify-center">
+                        <img class="flex items-center justify-center cover" src="./assets/Out line.png" alt="">
+                    </div>
+
+                    <h1 class="wont-[700] text-[24px] leading-[30px] text-[#1E959B]">SaaS-платформы</h1>
+                    <button
+                        class="wont-[700] text-[14px] hover:bg-[#FFFFFF] hover:text-[#F05670] leading-[17.33px] text-[#FFFFFF] bg-[#F05670] h-[62.06px] rounded-full w-[206px] section5-button">ЗАКАЗАТЬ</button>
+                </div>
+                <div
+                    class="w-[289px]  p-[1rem] h-[348px] bg-[white] section5-shadow flex flex-col h-[305px] w-[289px] items-center justify-between">
+                    <div class="w-[182px] h-[182px] rounded-full bg-[#1E959B] flex items-center justify-center">
+                        <img class="flex items-center justify-center cover" src="./assets/Group 5.png" alt="">
+                    </div>
+
+                    <h1 class="wont-[700] text-[24px] leading-[30px] text-[#1E959B]">Мобильное приложение</h1>
+                    <button
+                        class="wont-[700] text-[14px] hover:bg-[#FFFFFF] hover:text-[#F05670] leading-[17.33px] text-[#FFFFFF] bg-[#F05670] h-[62.06px] rounded-full w-[206px] section5-button">ЗАКАЗАТЬ</button>
+                </div>
+                <div
+                    class="w-[289px]  p-[1rem] h-[348px] bg-[white] section5-shadow flex flex-col h-[305px] w-[289px] items-center justify-between">
+                    <div class="w-[182px] h-[182px] rounded-full bg-[#1E959B] flex items-center justify-center">
+                        <img class="flex items-center justify-center cover" src="./assets/Vector (1).png" alt="">
+                    </div>
+
+
+<h1 class="wont-[700] text-[24px] leading-[30px] text-[#1E959B]">IoT-приложения</h1>
+                    <button
+                        class="wont-[700] text-[14px] hover:bg-[#FFFFFF] hover:text-[#F05670] leading-[17.33px] text-[#FFFFFF] bg-[#F05670] h-[62.06px] rounded-full w-[206px] section5-button">ЗАКАЗАТЬ</button>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h-[154px] bg-[#1E959B] flex items-center justify-between mt-[20rem]">
+            <div
+                class="container flex items-center justify-between overflow-x-auto max-[1320px]:p-[2rem] max-[1300px]:gap-[2rem]">
+                <div
+                    class="w-[289px]   p-[1rem] h-[348px] bg-[white] section5-shadow flex flex-col h-[305px] w-[289px] items-center justify-between">
+                    <div class="w-[182px] h-[182px] rounded-full bg-[#1E959B] flex items-center justify-center">
+                        <img class="flex items-center justify-center cover" src="./assets/Group (10).png" alt="">
+                    </div>
+
+                    <h1 class="wont-[700] text-[24px] leading-[30px] text-[#1E959B]">AR/VR</h1>
+                    <button
+                        class="wont-[700] text-[14px] leading-[17.33px] hover:bg-[#FFFFFF] hover:text-[#F05670] text-[#FFFFFF] bg-[#F05670] h-[62.06px] rounded-full w-[206px] section5-button">ЗАКАЗАТЬ</button>
+                </div>
+                <div
+                    class="w-[289px] p-[1rem] h-[348px] bg-[white] section5-shadow flex flex-col h-[305px] w-[289px] items-center justify-between">
+                    <div class="w-[182px] h-[182px] rounded-full bg-[#1E959B] flex items-center justify-center">
+                        <img class="flex items-center justify-center cover" src="./assets/Слой 1.png" alt="">
+                    </div>
+
+                    <h1 class="wont-[700] text-[24px] leading-[30px] text-[#1E959B]">MVP</h1>
+                    <button
+                        class="wont-[700] text-[14px] hover:bg-[#FFFFFF] hover:text-[#F05670] leading-[17.33px] text-[#FFFFFF] bg-[#F05670] h-[62.06px] rounded-full w-[206px] section5-button">ЗАКАЗАТЬ</button>
+                </div>
+                <div
+                    class="w-[289px]  p-[1rem] h-[348px] bg-[white] section5-shadow flex flex-col h-[305px] w-[289px] items-center justify-between">
+                    <div class="w-[182px] h-[182px] rounded-full bg-[#1E959B] flex items-center justify-center">
+                        <img class="flex items-center justify-center cover" src="./assets/Group (11).png" alt="">
+                    </div>
+
+                    <h1 class="wont-[700] text-[24px] leading-[30px] text-[#1E959B]">CRM/ERP</h1>
+                    <button
+                        class="wont-[700] text-[14px] hover:bg-[#FFFFFF] hover:text-[#F05670] leading-[17.33px] text-[#FFFFFF] bg-[#F05670] h-[62.06px] rounded-full w-[206px] section5-button">ЗАКАЗАТЬ</button>
+                </div>
+                <div
+                    class="w-[289px]  p-[1rem] h-[348px] bg-[white] section5-shadow flex flex-col h-[305px] w-[289px] items-center justify-between">
+                    <div class="w-[182px] h-[182px] rounded-full bg-[#1E959B] flex items-center justify-center">
+                        <img class="flex items-center justify-center cover" src="./assets/Group 185.png" alt="">
+                    </div>
+
+                    <h1 class="wont-[700] text-[24px] leading-[30px] text-[#1E959B]">Blockchain</h1>
+                    <button
+                        class="wont-[700] text-[14px] hover:bg-[#FFFFFF] hover:text-[#F05670] leading-[17.33px] text-[#FFFFFF] bg-[#F05670] h-[62.06px] rounded-full w-[206px] section5-button">ЗАКАЗАТЬ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 5 Ends -->
+
+
+    <!-- section6 starts -->
+    <section class="section6 mt-[2rem]">
+       <div class="items-center justify-center flex">
+        <div class="py-[10rem]">
+            <img src="./assets/Group (12).png" alt="">
+        </div>
+       <div class="bg-[#F05670] w-[150px] h-[50px] items-center flex rounded-[10px] gap-[15rem]">
+        <button class=" items-center text-white justify-center">ОСТАВИТЬ ЗАЯВКУ</button>
+       </div>
+       </div>
+      
+    </section>
+    <!-- section6 end -->
+
+    <!-- section7 starts -->
+    <section class="section7 container">
+        <div class="flex gap-[3rem] items-center mx-auto max-540px:flex-col">
+            <div>
+                <img src="./assets/Logo.svg" alt="">
+            </div>
+            <div>
+                <h1 class="text-[16px] text-[#1E959B]">
+                    Мобильные 
+                    <br> 
+                    Главная 
+
+                </h1>
+            </div>
+
+            <div>
+                <h1 class="text-[16px] text-[#1E959B] font-Gilroy">
+                    Связаться с нами
+                </h1>
+               
+            </div>
+            <div class="flex gap-[2rem] items-center object-scale-down h-48 w-96 ">
+                <img class="w-[40px] h-[50px]" src="./assets/phone.png" alt="">
+                <h1 class="text-[#1E959B] flex">+7 800 301-79-27</h1>
+            </div>
+
+
+            <div class="flex object-contain md:object-scale-down bg-300">
+                <img class="object-scale-down " src="./assets/telegram.png" alt="">
+                <img class="object-scale-down " src="./assets/pochta.png" alt="">
+            </div>
+
+            <div>
+                <img  src="./assets/Group 60.png" alt="">
+            </div>
+            <p>Индивидуальный предприниматель <br>
+                Степанов Георгий Константинович 
+                Адрес: г. Обнинск, ул. Белкинская. 19, <br>
+                136 ОГРНИП 318402700019269 ИНН 
+                402571298900 Банк МОСКОВСКИЙ ФИЛИАЛ <br>
+                АО КБ "МОДУЛЬБАНК" <br>
+                БИК 044525092 К/c 30101810645250000092 <br>
+                Счет 40802810970010085488</p>
+        </div>
+    </section>
+    <!-- section7 end -->
+
+    <script
+        src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+</body>
+
+</html>
